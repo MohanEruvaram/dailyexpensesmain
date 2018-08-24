@@ -29,7 +29,7 @@ public class Servletconfiguration {
 		internalResourceviewresolver.setSuffix(".jsp");
 		return internalResourceviewresolver;
 	}
-
+/*
 	@Bean
 	@Autowired
 	public LocalSessionFactoryBean localsession() {
@@ -42,13 +42,12 @@ public class Servletconfiguration {
 
 	}
 
-	@Bean
 	public DataSource datasource() {
 		DriverManagerDataSource datasource = new DriverManagerDataSource();
 		datasource.setDriverClassName("oracle.jdbc.driver.OracleDriver");
-		datasource.setUrl("jdbc:oracle:thin:@localhost:1521/orcl");
-		datasource.setUsername("sys");
-		datasource.setPassword("mohan11");
+		datasource.setUrl("jdbc:oracle:thin:@amazonportal.c2zoagnxyk96.ap-south-1.rds.amazonaws.com:1521/orcl");
+		datasource.setUsername("Mohan");
+		datasource.setPassword("Mohan1122");
 		return datasource;
 	}
 
@@ -68,5 +67,5 @@ public class Servletconfiguration {
 		hiber.setSessionFactory(session);
 		return hiber;
 
-	}
+	}*/
 }
