@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<marquee>YouSucceed</marquee>
+	<marquee>YouSucced</marquee>
 </body>
 </html>
